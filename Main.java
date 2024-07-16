@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("creating thread using Runnable Interface :  ");
-        MyThread t1 = new MyThread(); // creating a thread
+        // creating user thread
+        MyThread t1 = new MyThread(); 
 		Thread thread = new Thread(t1);
 		thread.start();
 

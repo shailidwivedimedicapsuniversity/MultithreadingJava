@@ -2,6 +2,7 @@
 public class MyThread implements  Runnable{
     @Override
     public void run() {
+        // in run method we write main task
         for(int i=0; i<10; i++){
             System.out.print(i+ " ");
             try {
