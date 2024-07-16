@@ -10,5 +10,10 @@ public class Main {
 		MyThreadImp t2 = new MyThreadImp();
 		t2.start();
 
+        Producer_Consumer pc = new Producer_Consumer();
+        Producer p = new Producer(pc);
+        Consumer c = new Consumer(pc);
+        p.start();
+        c.start();
     }
 }

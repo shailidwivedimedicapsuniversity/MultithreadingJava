@@ -11,5 +11,8 @@ public class ThreadOperations {
         // going to start user defined thread from MyThreadImp class
         MyThreadImp t1 = new MyThreadImp();
         t1.start();
+
+        int a,b = 33;
+        System.out.println( b);
     }
 }
